@@ -3,7 +3,7 @@ Depth-Assisted Network for Indiscernible Marine Object Counting with Flow-Guided
 
 <img src="./assets/images.gif" width="50%" alt="teaser" />
 <img src="./assets/gt.gif" width="50%" alt="teaser" />
-<div id="top" align="left">
+<div>
 
 
 ## Setup
