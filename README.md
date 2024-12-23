@@ -9,7 +9,7 @@ Depth-Assisted Network for Indiscernible Marine Object Counting with Flow-Guided
 
 
 ## Setup
-Pytorch 1.10.2\\
+Pytorch 1.10.2
 Python 3.8.19
 
 ## Dataset preparation 
