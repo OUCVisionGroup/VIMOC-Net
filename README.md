@@ -2,7 +2,7 @@
 Depth-Assisted Network for Indiscernible Marine Object Counting with Flow-Guided Adaptive Motion-Differentiated Feature Encoding
 
 <div>
-  <img src="./assets/images.gif" width="50%" alt="teaser" style="float: left;" />
+  <img src="./assets/images.gif" width="10%" alt="teaser" style="float: left;" />
   <img src="./assets/gt.gif" width="50%" alt="teaser" style="float: right;" />
 </div>
 
