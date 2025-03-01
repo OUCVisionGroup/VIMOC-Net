@@ -6,7 +6,7 @@ import os
 import glob
 import scipy
 from image import *
-from model_DAFG import DAFG
+from model import DAFG
 import torch
 from torch.autograd import Variable
 import torch.nn.functional as F
