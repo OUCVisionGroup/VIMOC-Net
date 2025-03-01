@@ -40,7 +40,7 @@ transform=transforms.Compose([
                    ])
 
 # the json file contains path of test images
-test_json_path = '/data/macz/People-Flows-main/data/yu3/test3.json'
+test_json_path = 'test.json'
 
 
 with open(test_json_path, 'r') as outfile:
@@ -59,7 +59,7 @@ raft.to(DEVICE)
 raft.eval()
 
 # modify the path of saved checkpoint if necessary
-checkpoint = torch.load('/data/macz/People-Flows-main/3/model3_test3.tar' )
+checkpoint = torch.load('model_best.pth.tar' )
 
 model.load_state_dict(checkpoint['state_dict'])
 model.eval()
