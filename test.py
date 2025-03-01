@@ -28,7 +28,7 @@ from utils.utils import InputPadder
 
 DEVICE = 'cuda'
 parser = argparse.ArgumentParser(description='PyTorch DAFG')
-parser.add_argument('--model', help="restore checkpoint")
+parser.add_argument('--raft_model', help="restore checkpoint")
 parser.add_argument('--small', action='store_true', help='use small model')
 parser.add_argument('--mixed_precision', action='store_true', help='use mixed precision')
 parser.add_argument('--alternate_corr', action='store_true', help='use efficient correlation implementation')
