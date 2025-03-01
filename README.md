@@ -20,3 +20,7 @@ You need to prepare datasets for following training and testing activities. [Dat
 
 ## Pre-train models
 You can download the model weights we provided [here](https://drive.google.com/file/d/1H8N6d3ugaGdzsQ1rF0Dmd-1wzgzGuVzT/view?usp=drive_link)
+
+## Test
+
+We recommend putting **raft-things.pth** in the *./RAFT* folder and **model_best.pth.tar** in *the .* folder. You can test VIMOC-Net with:
