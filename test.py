@@ -52,7 +52,7 @@ model = DAFG()
 model = model.cuda()
 
 raft = torch.nn.DataParallel(RAFT(args))
-raft.load_state_dict(torch.load(args.model))
+raft.load_state_dict(torch.load(args.raft_model))
 
 raft = raft.module
 raft.to(DEVICE)
