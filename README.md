@@ -23,4 +23,8 @@ You can download the model weights we provided [here](https://drive.google.com/f
 
 ## Test
 
-We recommend putting **raft-things.pth** in the *./RAFT* folder and **model_best.pth.tar** in *the .* folder. You can test VIMOC-Net with:
+We recommend putting **raft-things.pth** in the *./RAFT* folder and **model_best.pth.tar** in the main folder. You can test VIMOC-Net with:
+
+```shell
+python test.py --raft_model /path/to/RAFT/raft-things
+```
