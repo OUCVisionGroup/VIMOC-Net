@@ -1,4 +1,4 @@
-# VIMOC-Net
+![image](https://github.com/user-attachments/assets/506cfdce-071e-48fd-b4ae-673ed111247f)# VIMOC-Net
 Depth-Assisted Network for Indiscernible Marine Object Counting with Adaptive Motion-Differentiated Feature Encoding
 
 <div>
@@ -18,6 +18,7 @@ Optical flow estimates for this project are based on RAFT, which you can find [h
 The dataset comprises 50 high-deﬁnition ﬁsh videos, with each 10th frame annotated, resulting in approximately 40, 800 annotated points in total.
 
 <div>
+<img src="./assets/Dateset.png" width="70%" alt="teaser" align=center />  
 <img src="./assets/Number.png" width="40%" alt="teaser" align=center style="float: left;"/>  
 <img src="./assets/Rate.png" width="40%" alt="teaser" align=center style="float: right;"/>
 </div>
