@@ -16,8 +16,10 @@ Optical flow estimates for this project are based on RAFT, which you can find [h
 
 ## Dataset preparation 
 The dataset comprises 50 high-deﬁnition ﬁsh videos, with each 10th frame annotated, resulting in approximately 40, 800 annotated points in total.
-<img src="./assets/Dataset.png" width="80%" alt="teaser" align=center />
 
+<div>
+<img src="./assets/Dataset.png" width="80%" alt="teaser" align=center />
+</div>
 
 You need to prepare datasets for following training and testing activities. [Datasets](https://drive.google.com/file/d/12vmbS7p7gIDv2-T-pJUgGJRPLi5lvh_E/view?usp=sharing)
 
