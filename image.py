@@ -16,7 +16,7 @@ def load_data(img_path,train = True):
     img_name = os.path.basename(img_path)
     index = int(img_name.split('.')[0])
 
-    base = ((index - 1) // 10) * 10 + 1
+    base = ((index - 1) // 16) * 16 + 1
     prev_index = int(max(base,index-1))
     post_index = int(max(base,index-1))
 
