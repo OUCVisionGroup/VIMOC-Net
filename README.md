@@ -21,11 +21,13 @@ The dataset comprises 50 high-deﬁnition ﬁsh videos, with each 10th frame ann
 <img src="./assets/Dataset.png" width="90%" alt="teaser" align=center/>  
 </div>
 
-<div>
-<img src="./assets/Number.png" width="40%" alt="teaser" align=center style="float: left;"/>  
-<img src="./assets/Rate.png" width="40%" alt="teaser" align=center style="float: right;"/>
-</div>
+We classify them according to the target number and the motion rate!
 
+<div>
+<img src="./assets/Number.png" width="45%" alt="teaser" align=center style="float: left;"/>  
+<img src="./assets/Rate.png" width="45%" alt="teaser" align=center style="float: right;"/>
+</div>
+The entire dataset will be provided after the paper is received!
 You need to prepare datasets for following training and testing activities. [Datasets](https://drive.google.com/file/d/12vmbS7p7gIDv2-T-pJUgGJRPLi5lvh_E/view?usp=sharing)
 
 
