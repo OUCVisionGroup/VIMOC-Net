@@ -85,9 +85,9 @@ for i in range(len(img_paths)):
     img_folder = os.path.dirname(img_path)
     img_name = os.path.basename(img_path)
     index = int(img_name.split('.')[0])
-    if index > 0 and index < 501 :
+    if index > 0:
 
-        base = ((index - 1) // 10) * 10 + 1
+        base = ((index - 1) // 16) * 16 + 1
         prev_index = int(max(base,index-1))
 
         prev_img_path = os.path.join(img_folder,'%03d.jpg'%(prev_index))
@@ -122,7 +122,7 @@ for i in range(len(img_paths)):
         img = img.unsqueeze(0)
         prev_img = prev_img.unsqueeze(0)
         
-        flow_low, flow_up = raft(image1, image2, iters=20, test_mode=True)
+        flow_low, flow_up = raft(image1, image2, iters=4, test_mode=True)
         start_time = time.perf_counter()
         prev_flow,_ = model(prev_img,img,flow_up)
         
