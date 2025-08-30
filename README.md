@@ -46,5 +46,5 @@ python test.py --raft_model /path/to/RAFT/raft-things
 ## Train
 
 ```shell
-python test.py train.json test.json --raft_model /path/to/RAFT/raft-things
+python train.py train.json test.json --raft_model /path/to/RAFT/raft-things
 ```
