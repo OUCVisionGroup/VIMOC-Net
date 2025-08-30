@@ -45,4 +45,6 @@ python test.py --raft_model /path/to/RAFT/raft-things
 
 ## Train
 
-The training code will be available after the paper is received!
+```shell
+python test.py --raft_model /path/to/RAFT/raft-things
+```
