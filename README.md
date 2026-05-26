@@ -33,7 +33,7 @@ The entire dataset will be provided after the paper is received! Now we present 
 
 
 ## Pre-train models
-You can download the model weights we provided [here](https://drive.google.com/file/d/1H8N6d3ugaGdzsQ1rF0Dmd-1wzgzGuVzT/view?usp=drive_link)
+You can download the model weights we provided [here](https://drive.google.com/file/d/10UKq95xpWblPVr0Oz666ySXBEuSNuEoc/view?usp=drive_link)
 
 ## Test
 
